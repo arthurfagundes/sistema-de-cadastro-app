@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#8AB3D3">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:src="@drawable/icone_app" />
+
+        <TextView
+            android:id="@+id/txttitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="30dp"
+            android:text="@string/sistema_de_cadastro" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topPanel"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textSize="18sp"
+        android:text="@string/bem_vindo"/>
+
+    <Button
+        android:id="@+id/bt_reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtwelcome"
+        android:text="@string/reg_user"
+        android:backgroundTint="#437297"/>
+
+    <Button
+        android:id="@+id/bt_list_reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_reg_user"
+        android:text="@string/list_reg_user"
+        android:backgroundTint="#437297"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sistema de Cadastro</string>
+    <string name="sistema_de_cadastro">Sistema de Cadastro</string>
+    <string name="bem_vindo">Bem vindo ao Sistema de Cadastro. Esse é um pequeno software de cadastro de usuários. Escolha uma das opções abaixo:</string>
+    <string name="reg_user">CADASTRAR USUÁRIO</string>
+    <string name="list_reg_user">LISTAR USUÁRIOS CADASTRADOS</string>
+    <string name="cadastro_de_usuario">Cadastro de Usuário</string>
+    <string name="preencha_os_dados">Preencha os dados abaixo</string>
+    <string name="nome">Nome:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="register">CADASTRAR</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="listagem_de_usuarios">Listagem de Usuários</string>
+    <string name="registros">Registros: 1/10</string>
+    <string name="nomeList">Nome:</string>
+    <string name="nomeList1">[NOME]</string>
+    <string name="enderecoList">Endereço:</string>
+    <string name="enderecoList1">[ENDERECO]</string>
+    <string name="telefoneList">Telefone:</string>
+    <string name="telefoneList1">[TELEFONE]</string>
+    <string name="anterior">ANTERIOR</string>
+    <string name="proximo">PRÓXIMO</string>
+    <string name="fechar">FECHAR</string>
+</resources>

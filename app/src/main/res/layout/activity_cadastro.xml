@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/topPanelCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#8AB3D3">
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:src="@drawable/icone_app" />
+
+        <TextView
+            android:id="@+id/txttitulocad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="30dp"
+            android:text="@string/cadastro_de_usuario" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topPanelCad"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="@string/preencha_os_dados"/>
+    <TextView
+        android:id="@+id/txtnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtview1"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="@string/nome"/>
+
+    <EditText
+        android:id="@+id/edtnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnome"
+        android:layout_marginHorizontal="5dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <TextView
+        android:id="@+id/txtendereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtnome"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="@string/endereco"/>
+
+    <EditText
+        android:id="@+id/edtendereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtendereco"
+        android:layout_marginHorizontal="5dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <TextView
+        android:id="@+id/txttelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtendereco"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="@string/telefone"/>
+
+    <EditText
+        android:id="@+id/edttelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttelefone"
+        android:layout_marginHorizontal="5dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <LinearLayout
+        android:id="@+id/layout_botoes_cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttelefone"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btcadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:backgroundTint="#437297"/>
+
+        <Button
+            android:id="@+id/btcancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/cancel"
+            android:backgroundTint="#437297"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
